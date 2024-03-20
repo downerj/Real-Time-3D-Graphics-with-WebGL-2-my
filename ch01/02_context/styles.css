@@ -1,0 +1,21 @@
+:root {
+  --canvas-border: 5px;
+}
+
+html {
+  height: calc(100% - 10px);
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.viz-area {
+  width: calc(100% - var(--canvas-border)*2);
+  height: calc(100% - var(--canvas-border)*2);
+}
+
+canvas {
+  border: var(--canvas-border) dashed red;
+}
