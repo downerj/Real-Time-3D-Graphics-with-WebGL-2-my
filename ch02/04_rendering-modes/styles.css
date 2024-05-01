@@ -1,0 +1,17 @@
+:root {
+  --canvas-border: 5px;
+}
+
+html {
+  height: calc(100% - 10px);
+}
+
+body {
+  height: 100%;
+  background-color: black;
+}
+
+.viz-area {
+  width: calc(100% - var(--canvas-border)*2);
+  height: calc(100% - var(--canvas-border)*2);
+}
